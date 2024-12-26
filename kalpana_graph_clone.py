@@ -302,8 +302,3 @@ class GyroGraph(QMainWindow):
         self.row_index += 1
         self.time_index += 1
         
-
-if __name__ == '__main__':
-    win = QApplication(sys.argv)
-    ex =  tab1()
-    sys.exit(win.exec())
